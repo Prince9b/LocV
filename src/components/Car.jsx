@@ -63,7 +63,7 @@ function Car() {
       </div>
       <h2 className="text-center text-xl text-[var(--red-color)] mt-5">Encore Plus</h2>
       <div className="carousel rounded-xl h-70 w-full mt-5 gap-2 ">
-        <div className="carousel-item ">
+        <div className="carousel-item h-100 w-full  ">
           <img
             src={im}
             className=""
