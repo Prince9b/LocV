@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+  themes: corporate;
+}
+
+*{
+
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --tree-color: #444444;
+    --two-color: #1F2E4E;
+    --red-color: #EA001E;
+    --footer-color: #000C21;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+span{
+    font-size: 17px;
+}
